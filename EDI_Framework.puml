@@ -1,0 +1,25 @@
+' PlantUML blibliotheel voor het uitleggen van de concepten over:
+' - decentrale netwerk standaarden en hun generieke werking
+' - Overig n.t.b.
+
+sprite $AttestedAttributes [100x100/8z] {
+xPbNml8w34GzepBxN_4j2S5y9b40Xrl_yqBNYIpa0krTVi7u1eu7G-fBn6OnVH5yNw5S72afsJee8OcAiGPsIoFQbqZ9Msk-3jftu7hz8MNx6lyK1mxvp06F
+bVoSk66Z8zf2w4AuxqXTY6qEVyeZxhmzI9qi7T6kWAF3_xqElkluvSZ1uVyJ1nP8B5pd0CrzRNeDBDtjPdpIuMK7wAaN2UUxZfv3H9w9CiAD-C3H0KYQcRl7
+7NStCvAzC1EESsg7_OXiLphmw339htRaN-g8_vbZRFYC6Ffx99NlEk3xZPZ1onpDGdkaurq7othGpDSzKKIVFGuTRN1OvQWvTt1q-7SS_4iT-2SuG2CQY6yv
+u1a6B2eFAprnT_Ypmze1J0KVX9R1Jnpjq85GZY5TWGiTt7q1ANlTmTfX4Wz2-P4ZZXqyLOpZTOd3UdP5iDg17Zb7ntdJfBpCpuLpHofFji-SSFIHgd3bbADE
+esZSqe4oZRhijGE7ZkWl5XN1Z0FbK1rthXqxOd0KgrOzM2Ol77KvphzPeyFMa8-Efu-BfmwJyBh3HG2NEEpGiPqb8zpDo7pHOUjHo_lnzD01um8sz5ezP0qB
+lDD6H_qJy1bH9Mkw1Qe-7gUEd7Euf3SEVpjOtXmeoYcUbpoBOcNVPkq3rODrNhDSFyuYJ9mcml8Ta6s1l1giE4iZ2qNszoMnyXoYRX4_V1s0IpsWQoLNjjz3
+I2ole1ofs7fyFMQjQC5_MidTF9eg2RNtvSOAqKQgCE9XjMHj7jDH91-6OreIO-RCFenpz60AzdYmzSbqkyGXmysIuKRIFBGIhINd3UiYxuV_exZc5LnR5Q4H
+n_B2VDNxnXoUweGTRihEgNOc39gv4HR3Vcq6IFaWzErUOjXKJn2FJSQUKcInjNyFRaqsBieclhEPF5ySw5nBqrE2LX-utDVSBEBRx0u9ux4Pai92yeaqDdmz
+ruy7wj069jAuaOsIZLyuw4vCfo4nXsiDoKmTVEv8P_EzIxNjINekYNu6mxdSqTuofRv0mXnjaj3EbVhmv2JOMrJnbDjy8jXxibq79J_vXM4Ui7Zody3l
+}
+
+
+
+!unquoted procedure SSI_Issuer($id, $naam="Uitgever", $colour="red", $scale=1)
+rectangle $id as "
+<<$naam>>
+==
+<color:$colour><$AttestedAttributes*$scale></color>"
+!endprocedure
+
